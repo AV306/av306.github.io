@@ -1,3 +1,8 @@
-body {
+h1 {
 	font-family: Verdana;
+}
+
+nav {
+	font-family: Verdana;
+	background-color: #bbbbbb;
 }
