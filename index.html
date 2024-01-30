@@ -2,7 +2,7 @@
 <html>
 <head>
   <!--<meta http-equiv="refresh" content="0; URL=https://av306.github.io/AV306" />-->
-  <style src="index.css"></style>
+  <link rel="stylesheet" href="index.css">
   <script src="index.js"></script>
 
   <title>Hi there!</title>
@@ -10,7 +10,7 @@
 
 <body class="background">
   <!-- Navbar -->
-  <div class="bar flexrow">
+  <div class="top bar flexrow">
       <a href="av306.github.io/AV306">README ↗</a>
       <a href="">Github ↗</a></td>
       <a class="disabled" href="">Socials ↗</a>
@@ -18,17 +18,22 @@
 
   <!-- Main content -->
   <!-- If you're reading this, Krystal - I'm still using that blur CSS snippet you gave us in 2022 :) -->
-  <div>
-    <div class="side flexcolumn">
+  <div class="flexrow">
+    <div class="side flexcolumn blur">
       <p onclick="show( 0 )">About</p>
       <p onclick="show( 1 )">Projects</p>
       <p onclick="show( 2 )">Contact</p>
     </div>
 
     <div id="about-box" class="main blur">
+		<p></p>
     </div>
 
     <div id="projects-box" class="main blur hidden">
+		<h2>Projects I'm proud of</h2>
+		<ul>
+			<li>This page :D</li>
+		</ul>
     </div>
 
     <div id="contact-box" class="main blur hidden">
@@ -36,7 +41,7 @@
   </div>
 
   <!-- Footer -->
-  <div class="bar flexcolumn">
+  <div class="bottom bar flexcolumn">
       <p>Hand-made with pure HTML and CSS</p>
       <a href="">Source ↗</a>
   </div>
