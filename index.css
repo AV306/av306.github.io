@@ -19,6 +19,13 @@ body > * {
 	color: white;*/
 }
 
+.pfp {
+	border-style: solid;
+	border-radius: 50%;
+	border-width: 2px;
+	border-color: rgb( 91, 176, 255 );
+}
+
 .top {
 	/*position: absolute;
 	left: 5px;
@@ -55,7 +62,8 @@ body > * {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-	border-style: solid;
+	/*border-style: solid;
+	border-width: 1px;*/
 }
 
 .disabled {
@@ -82,7 +90,7 @@ body > * {
 	padding: 10px;
 	border-radius: 20px;
 	border-style: solid;
-	border-width: 2px;
+	border-width: 1px;
 }
 
 /* Text in sidebar */

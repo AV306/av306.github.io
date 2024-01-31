@@ -2,29 +2,28 @@ const aboutBox = document.getElementById( "about-box" );
 const projectsBox = document.getElementById( "projects-box" );
 const contactBox = document.getElementById( "contact-box" );
 
-const defaultClass = "main blur";
+const defaultClassName = "main blur";
 
 function show( index )
 {
     switch ( index )
     {
         case 0:
-			aboutBox.class = defaultClass;
-			projectsBox.class += " hidden";
-			contactBox.class += " hidden";
+			aboutBox.classList.remove( "hidden" );
+			projectsBox.classList.add( "hidden" );
+			contactBox.classList.add( "hidden" );
             break;
 
         case 1:
-			aboutBox.class += " hidden";
-			projectsBox.class = defaultClass;
-			contactBox.class += " hidden";
-			alert( "test" )
+			aboutBox.classList.add( "hidden" );
+			projectsBox.classList.remove( "hidden" );
+			contactBox.classList.add( "hidden" );
             break;
 
         case 2:
-			aboutBox.class += " hidden";
-			projectsBox.class += " hidden";
-			contactBox.class = defaultClass;
+			aboutBox.classList.add( "hidden" );
+			projectsBox.classList.add( "hidden" );
+			contactBox.classList.remove( "hidden" );
             break;
 
         default:
