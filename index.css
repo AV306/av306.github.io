@@ -9,8 +9,11 @@ body > * {
 
 .background {
     /* TODO: Replace test image */
-    background-image: url( "https://images.unsplash.com/photo-1500964757637-c85e8a162699" );
-	background-size: 100%;
+	background: url( "https://images.unsplash.com/photo-1500964757637-c85e8a162699" ) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 	/*
 	font-weight: 300;
 	color: white;*/
