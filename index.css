@@ -111,6 +111,24 @@ html {
 	/*mix-blend-mode: overlay;*/
 }
 
+.button:hover {
+	animation-name: buttonUnderline;
+	animation-duration: 1s;
+	animation-delay: -0.5s;
+	animation-iteration-count: 1;
+	border-color: white;
+}
+
+@keyframes buttonUnderline {
+	from {
+		border-bottom-style: none;
+	}
+
+	to {
+		border-bottom-style: solid;
+	}
+}
+
 .bar {
 	/* Colourblind person does colouring */
 	background: rgba(47, 98, 181, 0.7);
