@@ -3,16 +3,16 @@
 * {
 	font-family: "Poppins", sans-serif;
 	font-weight: 450;
-	font-size: 1.8vw;
+	font-size: 1.3vw;
 	font-style: bold;
 	color: white;
-	text-aligh: center;
+	/*text-align: center;*/
 	/*border-style: solid;*/
 }
 
 html {
 	/* 80% seems to work well enough */
-	height: 80%;
+	height: 90%;
 }
 
 h2 {
@@ -39,8 +39,10 @@ p {
 .pfp {
 	border-style: solid;
 	border-radius: 50%;
-	border-width: 2px;
+	border-width: 3px;
 	border-color: rgb( 91, 176, 255 );
+	margin-bottom: 2%;
+	width: 9vw;
 	max-width: 60%;
 	aspect-ratio: 1;
 }
@@ -100,7 +102,7 @@ p {
 	border-style: solid;
 	border-width: 2px;
 	margin: 5px;
-	padding: 10px;
+	padding: 2%;
 	max-width: 50%;
 }
 
