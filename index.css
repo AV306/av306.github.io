@@ -2,8 +2,8 @@
 
 * {
 	font-family: "Poppins", sans-serif;
-	font-weight: 500;
-	font-size: 16pt;
+	font-weight: 450;
+	font-size: 1.8vw;
 	font-style: bold;
 	color: white;
 	/*border-style: solid;*/
@@ -40,6 +40,8 @@ p {
 	border-radius: 50%;
 	border-width: 2px;
 	border-color: rgb( 91, 176, 255 );
+	max-width: 60%;
+	aspect-ratio: 1;
 }
 
 .top {
@@ -142,7 +144,7 @@ p {
 
 .bar {
 	/* Colourblind person does colouring */
-	background: rgba( 47, 98, 181, 0.7 );
+	background: rgba( 56, 152, 242, 0.5 );
 	backdrop-filter: blur( 7px );
 	-webkit-backdrop-filter: blur( 7px );
 	border-radius: 5px;
