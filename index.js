@@ -2,7 +2,6 @@ const aboutBox = document.getElementById( "about-box" );
 const projectsBox = document.getElementById( "projects-box" );
 const contactBox = document.getElementById( "contact-box" );
 
-const defaultClassName = "main blur";
 
 function show( index )
 {
